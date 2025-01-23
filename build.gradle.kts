@@ -19,5 +19,8 @@ publishing {
                 extension = "aar"          // ระบุชนิดไฟล์
             }
         }
+        repositories {
+            mavenLocal()
+        }
     }
 }
